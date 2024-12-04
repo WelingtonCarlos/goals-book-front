@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
@@ -67,6 +66,8 @@ export function RegisterForm() {
         throw new Error("Erro ao criar usuário");
       }
     } catch (error: any) {
+      console.log(error);
+      
       toast({
         title: "Erro ao criar usuário",
         description: "Email já cadastrado.",

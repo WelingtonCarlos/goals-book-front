@@ -16,7 +16,9 @@
     "@tanstack/react-query": "^5.62.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "crypto-js": "^4.2.0",
     "goals-book-front": "file:",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.462.0",
     "next": "15.0.3",
     "react": "^18.3.1",
@@ -27,6 +29,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
